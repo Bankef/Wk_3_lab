@@ -1,0 +1,15 @@
+
+    #real-alert{
+        color: purple;
+        font-size: 25px;
+    }
+
+    #test-only{
+        color: darkgreen;
+        font-family: "Bodoni MT Condensed";
+        font-size: 25px;
+    }
+
+    .missile-link{
+        display: block;
+    }

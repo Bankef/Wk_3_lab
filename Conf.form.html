@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&family=Slabo+27px&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body class="m-2">
+
+  <div id="title">
+    <h1> Conference Registration Form. </h1>
+  </div>
+
+  <!--Form creation with all required input-->
+  <form class="mx-3">
+  <label for="name"> Name </label>
+  <input required type="text" id="name" class="form-control" maxlength="70"> <br>
+
+  <label for="password"> Password </label>
+  <input id="password" name="password" class="form-control" required type="password"> <br>
+
+  <label for="email"> Email </label>
+  <input required type="text" id="email" class="form-control" name="email"> <br>
+
+    <label for="shirt">Choose a T-shirt size</label>
+    <select name="shirt" id="shirt" required>
+        <option value="small"> Small </option>
+        <option value="medium"> Medium </option>
+        <option value="large"> Large </option>
+    </select> <br>
+
+    <label for="date"> Date of birth </label>
+    <input required type="date" id="date" class="form-control" name="date"> <br>
+
+      <p> Would you like to receive an email with further conference information?</p>
+    <div class="form-check"><!--Activate radio button toggle-->
+      <label for="yes"> </label> <br>
+      <input class="form-check-input" id="Yes" name="sponsor" type="radio" checked required>
+      <label class="form-check-label" for="yes">Yes</label>
+    </div>
+
+    <div class="form-check"> <!--Activate radio button toggle-->
+      <input class="form-check-input" id="No" name="sponsor" type="radio">
+      <label class="form-check-label" for="No">No</label>
+    </div>
+
+    <!--Introduce checkbox element for conf. session-->
+    <p> Choose conference session </p>
+    <input type="checkbox" id="morning" name="morning" value="morning">
+      <label for="morning"> Morning </label> <br>
+    <input type="checkbox" id="afternoon" name="afternoon" value="afternoon">
+      <label for="afternoon"> Afternoon </label> <br>
+
+    <label for="comment" > Add comments and special request below </label> <br>
+    <textarea name="comment" id="comment" class="form-control" rows="7" cols="70" ></textarea> <br>
+
+    <div> <!--Bootstrap used for button style-->
+      <input type="Submit" class="btn btn-outline-dark">
+    </div>
+
+
+
+
+
+  </>
+
+</body>
+</html>

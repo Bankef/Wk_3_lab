@@ -1,0 +1,13 @@
+
+    body{
+        background-image: linear-gradient( #6cecca, #c7f1ef);
+    }
+
+    h1{
+        font-family: 'Secular One', sans-serif;
+        font-size: 45px;
+    }
+    label{
+    font-family: 'Slabo 27px', serif;
+    }
+

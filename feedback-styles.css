@@ -1,0 +1,12 @@
+    .jumbotron{
+        background-color: #1f0356;
+        color: #e0e0ea;
+        text-shadow: darkgreen;
+    }
+    body{
+        font-family: 'Noto Serif', serif;
+        background-color: #7d69e0;
+    }
+    h1{
+        font-family: 'Kanit', sans-serif;
+    }

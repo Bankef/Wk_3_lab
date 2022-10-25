@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="feedback-styles.css">
+</head>
+<body class="m-2">
+
+    <div class="jumbotron">
+    <h1> Leave your comments below. Thanks! </h1>
+    </div>
+
+    <div class="row"> <!-- start of row -->
+
+      <div class="col-md-6"> <!-- first column starts here-->
+        <div class="ml-6">
+        <div class="mx-6">
+        <p> Your thoughts, comments, and feedback is important to us, and we would like to hear them.</p>
+        <p>Include your email for response.</p>
+        <p>All kinds of questions are welcome, ask away!</p>
+        </div>
+        </div>
+      </div> <!--Ends first column-->
+
+     <div class="col-md-6"> <!--start of second column-->
+    <form class="mx-6">
+    <label for="name"> Name </label>
+    <input id="name" class="form-control" type="text"> <br>
+
+    <label for="email"> Email</label>
+    <input id="email" class="form-control" type="email"> <br>
+
+    <label for="comment"> Comments</label><br>
+   <textarea id="comment" class="form-control" required type="text"></textarea> <br>
+
+    <div class="form-check"><!--Activate radio button toggle-->
+    <label> Are you a current student?</label><br>
+    <input class="form-check-input" id="Yes" name="student" type="radio" checked>
+    <label class="form-check-label" for="yes">Yes</label>
+    </div>
+
+     <div class="form-check"> <!--Activate radio button toggle-->
+     <input class="form-check-input" id="No" name="student" type="radio">
+    <label class="form-check-label" for="No">No</label>
+     </div> <br>
+    <div> <!--Bootstrap used for button style-->
+    <input type="Submit" class="btn btn-outline-dark">
+    </div>
+    </form>
+
+    </div> <!--End of second colum-->
+    </div> <!--End of row-->
+</body>
+</html>
